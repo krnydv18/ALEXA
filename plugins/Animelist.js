@@ -34,7 +34,7 @@ let tk = Config.WORKTYPE == 'public' ? false : true
     
     }));
 
-    Neotro.addCommand({ pattern: 'wifu ?(.*)', fromMe: tk,dontAddCommandList: true}, (async (message, match) => {
+    Neotro.addCommand({ pattern: 'waifu ?(.*)', fromMe: tk,dontAddCommandList: true}, (async (message, match) => {
 
        var ttinullimage = await axios.get(`https://bx-${Config.HSITE}.herokuapp.com/api/sfw/waifu?apikey=${Config.BAPIKEY}`, { responseType: 'arraybuffer' })
 
