@@ -79,10 +79,10 @@
             "MUST_TEXT": "```Please reply to any message```"
         },
         "heroku": {
-            "RESTART_DESC": "Restart Amazone Alexa",
-            "RESTART_MSG": "*Restarting 👩‍🦰Amazone Alexa...*",
-            "SHUTDOWN_DESC": "Shutdown 👩‍🦰Amazone Alexa",
-            "SHUTDOWN_MSG": "*Shutting down ⛔ 👩‍🦰Amazone Alexa*",
+            "RESTART_DESC": "Restart P∆IN BOT",
+            "RESTART_MSG": "*Restarting P∆IN BOT...*",
+            "SHUTDOWN_DESC": "Shutdown P∆IN BOT",
+            "SHUTDOWN_MSG": "*Shutting down ⛔ P∆IN BOT*",
             "DYNO_DESC": "Check heroku dyno usage",
             "DYNO_TOTAL": "```Total Quota```",
             "DYNO_USED": "```Quota used```",
@@ -237,7 +237,7 @@
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```👩‍🦰Amazone Creating Sticker```"
+            "DOWNLOADING": "```Creating Sticker```"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
@@ -268,9 +268,9 @@
             "UPDATE_NOW_DESC": "It makes updates.",
             "UPDATING": "Updating..🧞‍♂️",
             "INVALID_HEROKU": "*❌ Your Heroku app name or api key wrong!*",
-            "UPDATED": "*👩‍🦰Amazone Alexa Updated!*",
-            "UPDATED_LOCAL": "*👩‍🦰Amazone Alexa Updated!*",
-            "AFTER_UPDATE": "*👩‍🦰Amazone Alexa Restarting !*",
+            "UPDATED": "*P∆IN BOT Updated!*",
+            "UPDATED_LOCAL": "*P∆IN BOT Updated!*",
+            "AFTER_UPDATE": "*P∆IN BOT Restarting !*",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
@@ -317,13 +317,13 @@
             "URL": "Shorten the long link."
         },
         "conventer": {
-            "MP4TOAUDİO_DESC": "වීඩියෝව mp3 බවට පරිවර්තනය කරයි.",
-            "MP4TOAUDİO_NEEDREPLY": "*ඔබ වීඩියෝවකට mention දිය යුතුය!*",
-            "MP4TOAUDİO": "\n```🔄 වීඩියෝව mp3 බවට පරිවර්තනය කිරීම..```\n",
-            "STİCKER_DESC": "ස්ටිකරය ඡායාරූපයකට පරිවර්තනය කරයි.",
+            "MP4TOAUDİO_DESC": "Converts video to mp3.",
+            "MP4TOAUDİO_NEEDREPLY": "*You must mention a video!*",
+            "MP4TOAUDİO": "\n```Convert video to mp3..```\n",
+            "STİCKER_DESC": "Converts the sticker into a photo.",
             "STİCKER_NEEDREPLY": "*ඔබ ස්ටිකරයකට mention දිය යුතුය!*",
-            "STİCKER": "\n```🔄 ස්ටිකරය ඡායාරූපයකට පරිවර්තනය කිරීම..```\n",
-            "XMEDİA_DESC": "එය මාධ්‍ය මෙවලම් 25 කට වඩා ඇති ප්ලගිනයකි.",
+            "STİCKER": "\n```Convert the sticker to a photo..```\n",
+            "XMEDİA_DESC": "It is a plugin with more than 25 media tools.",
             "T_FALSE": "```❌ Incorrect Blend Effect Entered!```\n```🔎 Existing Commands:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
             "T_NOT": "```💭 You Need To Enter Any Blend Effects!\n```🔎 Existing Commands:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
             "T_DESC": "Applies the selected TBlend effect to videos.",
@@ -577,7 +577,7 @@
             "BOT_DESC": "Chat with AI sim bot .bot < your msg >",
             "PINSTA": "Download Instergram post",
             "VINSTA": "Download instergram video",
-            "PKG": "install official Amazone plugins",
+            "PKG": "install official plugins",
             "REMOVE": "Remove Official plugins",
             "PLUG": "Show official plugins list",
             "MMPACK": "Show  meme maker list",
@@ -600,11 +600,11 @@
             "DEVICE": "Check device details",
             "DATA": "Get Ehi list",
             "E": "👩‍🦰",
-            "APK_DESC": "Playstore Download කරයි.",
-            "APK_NEED": "Playstore app link ඇතුළත් කරන්න.",
-            "NO_APK": "වලංගු playstore app link ඇතුළත් කරන්න.",
-            "APK_DW": "\n💰ඔබගේ APK download කරමින් පවති...\n",
-            "APK_UP": "\n🚀ඔබගේ APK upload කරමින් පවති...\n",
+            "APK_DESC": "Playstore Download .",
+            "APK_NEED": "Playstore app link .",
+            "NO_APK": "Please enter a valid playstore app link.",
+            "APK_DW": "\n💰Your APK is being downloaded...\n",
+            "APK_UP": "\n🚀Your APK is being uploaded...\n",
             "APK_D": "▸ 🛸APK Description ◂\n\n",
             "APK_N": "🛡️ APK Name : ",
             "APK_DEV": "\n👨🏻‍💻 Developer : ",
@@ -613,7 +613,7 @@
             "TIKTOK": "Download Tik tok video.",
 	    "FBDOWN": "Download Facebook Video.",
 	    "PTDOWN": "Download Pinterest Images.\n*Ex:* .pindown https://www.pinterest.com/pin/624522673326224603/",
-            "NOT_AVAILABLE": "👩‍🦰Amazone chat bot Disabled."
+            "NOT_AVAILABLE": "P∆IN chat bot Disabled."
         },
         "covid": {
             "COV_DESC": "Shows the daily and overall covid table of more than 15 countries.",
