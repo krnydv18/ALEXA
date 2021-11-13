@@ -29,7 +29,7 @@ const NO_RESULT = "*🤕 Oops Song Not Found...*\n Enter *.findsong* For Help"
 let typea = Config.WORKTYPE == 'public' ? false : true
 let typeb = Config.WORKTYPE == 'public' ? true : false
 
-const YT_NEED = 🎇 *Enter the Direct MP3 URL.*
+const YT_NEED = '🎇 *Enter the Direct MP3 URL.*
 
  💡 *Step 1:-* https://mailboxdrive.com/upload/    Sign In
  💡 *Step 2:-* Browse Files Click.
