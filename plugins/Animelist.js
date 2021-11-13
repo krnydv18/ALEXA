@@ -18,7 +18,7 @@ let tk = Config.WORKTYPE == 'public' ? false : true
     
     }));
 
-    Neotro.addCommand({ pattern: 'ava ?(.*)', fromMe: tk,dontAddCommandList: true}, (async (message, match) => {
+    Neotro.addCommand({ pattern: 'avaaaa ?(.*)', fromMe: tk,dontAddCommandList: true}, (async (message, match) => {
       
         var ttinullimage = await axios.get(`https://${Config.ZRUN}.xyz/api/anime/sfw/avatar?apikey=${Config.ZTH}`, { responseType: 'arraybuffer' })
 
@@ -26,7 +26,7 @@ let tk = Config.WORKTYPE == 'public' ? false : true
     
     }));
 
-    Neotro.addCommand({ pattern: 'kemo ?(.*)', fromMe: tk,dontAddCommandList: true}, (async (message, match) => {
+    Neotro.addCommand({ pattern: 'kemoooo ?(.*)', fromMe: tk,dontAddCommandList: true}, (async (message, match) => {
       
         var ttinullimage = await axios.get(`https://${Config.ZRUN}.xyz/api/anime/sfw/kemonomimi?apikey=${Config.ZTH}`, { responseType: 'arraybuffer' })
 
@@ -43,7 +43,7 @@ let tk = Config.WORKTYPE == 'public' ? false : true
     }));
 
 
-    Neotro.addCommand({ pattern: 'awoo ?(.*)', fromMe: tk,dontAddCommandList: true}, (async (message, match) => {
+    Neotro.addCommand({ pattern: 'awoooo ?(.*)', fromMe: tk,dontAddCommandList: true}, (async (message, match) => {
         
         var ttinullimage = await axios.get(`https://bx-${Config.HSITE}.herokuapp.com/api/sfw/awoo?apikey=${Config.BAPIKEY}`, { responseType: 'arraybuffer' })
 
@@ -52,7 +52,7 @@ let tk = Config.WORKTYPE == 'public' ? false : true
     }));   
     
     
-    Neotro.addCommand({ pattern: 'shinobu ?(.*)', fromMe: tk, dontAddCommandList: true}, (async (message, match) => {
+    Neotro.addCommand({ pattern: 'shinobuuuu ?(.*)', fromMe: tk, dontAddCommandList: true}, (async (message, match) => {
         
         var ttinullimage = await axios.get(`https://bx-${Config.HSITE}.herokuapp.com/api/sfw/shinobu?apikey=${Config.BAPIKEY}`, { responseType: 'arraybuffer' })
 
@@ -69,7 +69,7 @@ let tk = Config.WORKTYPE == 'public' ? false : true
     
     }));
 
-    Neotro.addCommand({ pattern: 'alist ?(.*)', fromMe: tk, dontAddCommandList: false, desc: Lang.ANIMELIST,}, (async (message, match) => {await message.client.sendMessage(message.jid,ANIME, MessageType.text);
+    Neotro.addCommand({ pattern: 'blist ?(.*)', fromMe: tk, dontAddCommandList: false, desc: Lang.ANIMELIST,}, (async (message, match) => {await message.client.sendMessage(message.jid,ANIME, MessageType.text);
 
     }));
 
