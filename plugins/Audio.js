@@ -12,15 +12,15 @@ const Config = require('../config');
 const Language = require('../language');
 const Lang = Language.getString('amazone');
 const BLang = Language.getString('scrapers');
-const YTV_DESC = "Youtube Audio Downloader V2."
-const YT_NEED = "🌀 *Enter Youtube URL* \nExample:-\n _.audio https://www.youtube.com/watch?v=nYQZ0uXWbP4_"
-const DWLOAD_AUD = "*🎭 Downloading Your Audio...*"
-const YTV_UP = "*🚀 Uploading Your Audio...*"
-const NO_RESULT = "🌀 *Can't Find Anything...*"
+const YTV_DESC = "Youtube Audio Downloader."
+const YT_NEED = "⚠️ *Please Enter Youtube video LINK* \nExample:-\n _.audio https://www.youtube.com/watch?v=nYQZ0uXWbP4_"
+const DWLOAD_AUD = "*🔊Please wait.....*"
+const YTV_UP = "*🎵 Playing your song...*"
+const NO_RESULT = "🌀 *Internal server error*"
 let tk = Config.WORKTYPE == 'public' ? false: true
 let tn = Config.WORKTYPE == 'public' ? false: true
 
-    amazone.addCommand({ pattern: 'audio ?(.*)', fromMe: tk, desc: YTV_DESC,  deleteCommand: false}, async (message, match) => {
+    amazone.addCommand({ pattern: 'play ?(.*)', fromMe: tk, desc: YTV_DESC,  deleteCommand: false}, async (message, match) => {
 
         const link = match[1]
     
@@ -46,7 +46,7 @@ let tn = Config.WORKTYPE == 'public' ? false: true
 
 
 
-    amazone.addCommand({ pattern: 'audio ?(.*)', fromMe: true, dontAddCommandList: true,  deleteCommand: false}, async (message, match) => {
+    amazone.addCommand({ pattern: 'play ?(.*)', fromMe: true, dontAddCommandList: true,  deleteCommand: false}, async (message, match) => {
 
         const link = match[1]
     
