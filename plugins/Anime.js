@@ -14,7 +14,7 @@ const Lang = Language.getString('amazone');
 let tk = Config.WORKTYPE == 'public' ? false: true
 
 
-    Neotro.addCommand({pattern: 'anime', fromMe: tk, desc: Lang.ANIM_DESC}, (async (message, match) => {
+    Neotro.addCommand({pattern: 'danime', fromMe: tk, desc: Lang.ANIM_DESC}, (async (message, match) => {
 
     var r_text = new Array ();
 
@@ -106,7 +106,7 @@ let tk = Config.WORKTYPE == 'public' ? false: true
 
     }));
 
-    Neotro.addCommand({pattern: 'anime', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Neotro.addCommand({pattern: 'danime', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     var r_text = new Array ();
 
