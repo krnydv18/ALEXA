@@ -13,7 +13,7 @@ const Language = require('../language');
 const Lang = Language.getString('amazone');
 let tn = Config.WORKTYPE == 'public' ? false : true
 
-Neotro.addCommand({pattern: 'device ?(.*)', fromMe: tn, desc: Lang.DEVICE , dontAddCommandList: false}, async (message, match) => {
+Neotro.addCommand({pattern: 'adevice ?(.*)', fromMe: tn, desc: Lang.DEVICE , dontAddCommandList: false}, async (message, match) => {
     
 const {data} = await axios(`https://zenzapi.xyz/api/gsmarena?query=${match[1]}&apikey=a9a05974d30e`)
 const { status, result } = data
@@ -37,7 +37,7 @@ msg += '```'
  return await message.client.sendMessage(message.jid, msg, MessageType.text, { quoted: message.data });
 });
 
-    Neotro.addCommand({pattern: 'device ?(.*)', fromMe: true, dontAddCommandList: true, dontAddCommandList: false}, async (message, match) => {
+    Neotro.addCommand({pattern: 'adevice ?(.*)', fromMe: true, dontAddCommandList: true, dontAddCommandList: false}, async (message, match) => {
     
         const {data} = await axios(`https://zenzapi.xyz/api/gsmarena?query=${match[1]}&apikey=a9a05974d30e`)
         const { status, result } = data
