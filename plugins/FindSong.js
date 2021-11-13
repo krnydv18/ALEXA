@@ -29,21 +29,20 @@ const NO_RESULT = "*🤕 Oops Song Not Found...*\n Enter *.findsong* For Help"
 let typea = Config.WORKTYPE == 'public' ? false : true
 let typeb = Config.WORKTYPE == 'public' ? true : false
 
-const YT_NEED = `🤪 *Direct MP3 URL ඇතුලත් කරන්න.*
+const YT_NEED = 🎇 *Enter the Direct MP3 URL.*
 
- 💡 *Step 1:-* https://mailboxdrive.com/upload/    පිවිසෙන්න
- 💡 *Step 2:-* Browse Files ඔබන්න.
- 💡 *Step 3:-* ඔබගේ දුරකතනයෙන් අවශ්‍ය MP3 ගොනුව Select කරන්න
- 💡 *Step 4:-* එය Upload වූ පසු එයට පහල ඇති URL එක Copy කරගන්න
- 💡 *Step 5:-* එම URL එක පහත පරිදි Botට ඇතුලත් කරන්න.
+ 💡 *Step 1:-* https://mailboxdrive.com/upload/    Sign In
+ 💡 *Step 2:-* Browse Files Click.
+ 💡 *Step 3:-* Select the desired MP3 file from your phone
+ 💡 *Step 4:-* Once it is uploaded, copy the URL below it
+ 💡 *Step 5:-*Enter that URL into Bot as follows.
  
  🎥 *Example* : _.findsong https://www.mboxdrive.com/sample.mp3_
  
  Supports All Direct MP3 Links (Telegraph,fastupload,mailboxdrive,ufile,...)
  
  ══════════════════
-       *Copyright © AZURE*
-        CODED BY RAMIYA
+       *Pain BOT*
 ══════════════════`
 
 // -----------------------------------------------------------------------------------------------------------------------------
