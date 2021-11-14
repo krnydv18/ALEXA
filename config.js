@@ -45,6 +45,7 @@ module.exports = {
     CAPTIONS: process.env.CAPTIONS === undefined ? 'Made By 👩‍🦰Amazone' : process.env.CAPTIONS,
     DISBGM: process.env.DISABLE_JID_BGM_FILTER === undefined ? false : process.env.DISABLE_JID_BGM_FILTER,
     STICKERP: process.env.AUTO_STICKER === undefined ? true : convertToBool(process.env.AUTO_STICKER),
+    STICKER_PACKNAME: process.env.STICKER_PACKNAME === undefined ? '痛み,P∆IN🐦' : process.env.STICKER_PACKNAME,
     DISSTICKER: process.env.DISABLE_STICKER === undefined ? false : process.env.DISABLE_STICKER,
     BOT_NAME: process.env.BOT_NAME === undefined ? '👩‍🦰Amazone' : process.env.BOT_NAME,
     THERI_KICK: process.env.THERI_KICK === undefined ? 'true' : process.env.THERI_KICK,
