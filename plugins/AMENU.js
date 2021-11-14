@@ -7,7 +7,7 @@ const Language = require('../language');
 const Lang = Language.getString('amazone');
 const tk = Config.WORKTYPE == 'public' ? false : true
 
-Amazon.addCommand({pattern: 'medicos', fromMe: tk, desc: Lang.MENU}, (async (message, match) => {
+Amazon.addCommand({pattern: 'help', fromMe: tk, desc: Lang.MENU}, (async (message, match) => {
     var time = new Date().toLocaleString('SI', { timeZone: Config.TIME_ZONE }).split(' ')[1]
 
     var wish = ''
@@ -26,180 +26,156 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
     var respoimage = await axios.get(`${Config.MENU_LOGO}`, { responseType: 'arraybuffer' })
     await message.sendMessage (Buffer.from (respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `        
 
- *╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」*
+*╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」*
  │
- *│ᴛʏᴘᴇ: .`+Config.PANEL_COMMAND+` get full Command list*
  ├─────────●●►
  *│🌼HEY,*  `+wish+`
- *│👤Name:* `+Config.BOT_NAME+`
- *│💎Role:* Developer
  *│Time⌚:* `+time+`
  *│📡Server:* Digital Ocean
- *│📦Frameworks:* Nodejs
- *│☬Working As*
- *│🛡️ `+Config.WORKTYPE+`*
- │ _©️ᴀᴍᴀᴢᴏɴᴇ-ᴛᴇᴇɴᴜ_
+ *│💻Frameworks:* Nodejs
+ *│🛰️Hosted on* Heroku
  ╰──────────●●►
 
- ╭──────────●●►
-*│🛡️BOT COMMANDS*
+ ╭──────────●●➢
+☯│🛡️BOT COMMANDS☯
  │   ───────
- │
- │► .`+Config.PANEL_COMMAND+` [All command list]
- │► .alive [Check bot status]
- │► .bot [chat with bot]
- │► .Admin [ for owner ]
- │► .version [check Version 
- │►.update [check Update]
- │►.update now [get update ]
- │►.restart 
- ╰───────────●●►
+ │➢.alive [Check bot status]
+ │➢.bot [chat with bot]
+ │➢.Admin [ for owner ]
+ │➢.update [check Update]
+ │➢.update now [get update ]
+ │➢.restart 
+ ╰───────────●●➢
 
- ╭───────────●●►
- *│🧜‍♀STICKER COMMANDS*
+ ╭───────────●●➢
+ ☯│🧜‍♀STICKER COMMANDS☯
  │      ───────
- │► .attp [text ]
- │► .sticker
- │► .photo
- │► .listp
- ╰────────────●●►
+ │➢.attp [text ]
+ │➢.sticker
+ │➢.toimg
+ │➢.stk
+ ╰────────────●●➢
 
- ╭────────────●●►
- *│🧞‍♀️TEXT TO IMG*
+ ╭────────────●●➢
+ ☯│🧞‍♀️TEXT TO IMG☯
  │   ───────
- │► .textimg 
- │► .prologo (unlimited logos)
- │► .prologo your Text
- │► .moretext 
- │► .ffpack [Free fire Logo pack]
- │► .ttp [ text ]
- │► .dttp [ text ]
- │► .trumpsay [ text ]
- │► .changesay [ text ]
- │► .animesay [ text ]
- │► .meme 
- │► .listp
- │► .mmpack
- ╰────────────●●►
+ │➢.textimg 
+ │➢.prologo [your text]
+ │➢.ffpack [Free fire Logo pack]
+ │➢.ttp [ text ]
+ │➢.dttp [ text ]
+ │➢.trumpsay [ text ]
+ │➢.changesay [ text ]
+ │➢.animesay [ text ]
+ │➢.meme 
+ ╰────────────●●➢
 
- ╭────────────●●►
- *│💰DOWNLOAD COMMANDS*
+ ╭────────────●●➢
+ ☯│💰DOWNLOAD COMMANDS☯
  │      ────────
- │► .video [ Yt Link]
- │►.mp4    [Name]
- │►.audio  [yt link ]
- │► .download  [status download]
- │►.song  [ song name ]
- │►.dcsong [ song name ]
- │►.img [ name ]
- │►.fb  link ]
- │►.tiktok [ link ]
- │►.vinsta  [ Insta Video ]
- │►.pinsta [ Insta Post ]
- │►.twt [twitter video Link]
- │►.mediafire
- ╰────────────●●►
+ │➢.video [ Yt Link]
+ │➢.pvideo [video link]
+ │➢.play [yt link ]
+ │➢.song  [ song name ]
+ │➢.psong[ song name ]
+ │➢.img [name]
+ │➢.twt [twitter video Link]
+ ╰────────────●●➢
 
- ╭────────────●●►
- *│🔍SEARCH COMMANDS*
+ ╭────────────●●➢
+ ☯│🔍SEARCH COMMANDS☯
  │     ──────────
- │► .yt [ topic ]
- │► .wiki [text ]
- │► .movie [ movie name ]
- │► .github [ name ]
- │► .show [tv series ]
- │► .weather [ city ]
+ │➢.yt [ topic ]
+ │➢.wiki [text ]
+ │➢.movie [ movie name ]
+ │➢.github [ name ]
+ │➢.show [tv series ]
+ │➢.weather [ city ]
  │
- ╰────────────●●►
+ ╰────────────●●➢
 
- ╭────────────●●►
- *│🛸GROUP COMMANDS*
+ ╭────────────●●➢
+ ☯│🧩Fun and Wallpaper ☯
  │  ─────────
- │► .rename [change Group name]
- │► .rules    [check rules]
- │► .info [check details]
- │► .tagadmin 
- │►.antispm
- │►.clear
- │► .report
- │► .tagall  
- │► .ban [ for owner ]
- │► .add [ for owner ]
- │► .promote [ for owner ]
- │► .demote [ for owner ]
- │► .invite [ for owner ]
- │► .leave [ for owner ]
- │►.welcome 
- │►.goodbye
- ╰───────────●●►
+ │➢.aniwall
+ │➢..wallpaper
+ │➢.bts
+ │➢.blackpink
+ │➢.loli
+ │➢.megumin
+ │➢.waifu
+ │➢.qr
+ │➢.emoji
+ │➢.compliment
+ │➢.joke
+ │➢.zodiac
+ ╰───────────●●➢
+ ╭────────────●●➢
+ ☯│🛸GROUP COMMANDS☯
+ │  ─────────
+ │➢.rename [change Group name]
+ │➢.rules    [check rules]
+ │➢.info [check details]
+ │➢.tagadmin 
+ │➢.antispm
+ │➢.clear
+ │➢.report
+ │➢.tagall  
+ │➢.ban [ for owner ]
+ │➢.add [ for owner ]
+ │➢.promote [ for owner ]
+ │➢.demote [ for owner ]
+ │➢.invite [ for owner ]
+ │➢.leave [ for owner ]
+ │➢.welcome 
+ │➢.goodbye
+ ╰───────────●●➢
 
- ╭───────────●●►
- *│🎨MEDIA TOOLS*
+ ╭───────────●●➢
+ ☯│🎨MEDIA TOOLS☯
  │      ───────
- │► .axmedia [25+ tools]
- │► .tblend
- │►.ocr [Read Text]
- │►.mp3 [Video To mp3]
- │► .ffmpeg [fade in:0:30 ]
- │► .removebg
- │► .spdf [convent site to pdf]
- │► .voicy
- │► .unvoice [mp3 to voice]
- ╰───────────●●►
+ │➢.xmedia [25+ tools]
+ │➢.mp3 [Video To mp3]
+ │➢.removebg
+ │➢.voicy
+ │➢.unvoice [mp3 to voice]
+ ╰───────────●●➢
 
- ╭───────────●●►
- *│⚡MORE COMMAND*
+ ╭───────────●●➢
+ ☯│⚡MORE COMMAND☯
  │  ────────
- │►.scan
- │►.brdmore
- │►.rdmore
- │►.tts
- │►.gm
- │►.gn
- │►.ftext
- │► .wallpaper
- │► .anime
- │► .listanim
- │► .device
- │► .currency
- │► .ss [link ]
- │► .afk [ bot is online ]
- │► .short { link ]
- │► .wame [ get user link ]
- │► .currency
- │► .trt { en si }
- │► .notes
- │► .save
- │► .deleteNotes
- │► .covid  [ covid LK]
- ╰────────────●●►
+ │➢.scan
+ │➢.brdmore
+ │➢.rdmore
+ │➢.tts
+ │➢.ftext
+ │➢.wallpaper
+ │➢.anime
+ │➢.listanim
+ │➢.device
+ │➢.currency
+ │➢.ss [link ]
+ │➢.afk [ bot is online ]
+ │➢.short { link ]
+ │➢.wame [ get user link ]
+ │➢.currency
+ │➢.trt { en si}
+ │➢.covid  [ covid IN]
+ ╰────────────●●➢
 
- ╭───────────●●►
- *│⚙️BOT SETTINGS*
- │    ───────
- │► .pp [set profilr pic]
- │►.autobio on/off [change bio ]
- │►.whatsblock on [WA link Block]
- │►.inblock on /off 
- │►.work public /private
- │►.setrules
- │► .setvar
- │ ▷EMOJI_COMMAND:🛡️ [change Cmd emoj]
- │ ▷EMOJI_DESCRIPTION:  🔍 [change des emoj]
- │ ▷EMOJI_EXAMPLE:🔆 [change ex emoji]
- │ ▷EMOJI_WARNING:⚠️ [change war emoj]
- │ ▷BOT_NAME: <bot name> [change NAME]
- │ ▷BIO: <your Text> [change bio]
- │ ▷MENU_LOGO: <link> [change Logo]
- │ ▷CAPTION: <text> [change caption]
- │ ▷MENUINFO: <text> [change Menu info]
- │ ▷SUDO: <number> [add sudo]
- │    
- │    THANK FOR
- │     USING
- │ AMAZONE ALEXA ✉️
- │©️TEENU-X
- ╰───────────●●►
+ ╭───────────●●➢
+ ☯│⚙️BOT SETTINGS☯
+ │ ──Owner only──
+ │➢.pp [set profilr pic]
+ │➢.autobio on/off [change bio ]
+ │➢.whatsblock on [WA link Block]
+ │➢.inblock on /off 
+ │➢.work public /private
+ │➢.setrules
+ │➢.setvar
+ │
+ ╰───────────●●➢
+*📝Note Some api based │commands are not working after latest whatsapp update* 
  
 `}) 
 
