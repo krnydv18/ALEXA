@@ -1,7 +1,7 @@
 {
-    "name": "Amazone Alexa V8",
-    "description": "Alexa is a chat bot for WhatsApp. Makes it easy and Working perfectly",
-    "logo": "https://telegra.ph/file/2046371f4b8e65dd4d52e.jpg",
+    "name": "PAIN BOT V2",
+    "description": "PAIN BOT is whatsapp user bot with may features",
+    "logo": "https://telegra.ph/file/b2e46124ee3336b339745.jpg",
     "keywords": ["whatsapp", "userbot", "bot", "api", "ai", "amazone alexa"],
     "repository": "https://chat.whatsapp.com/B5i5mfIerpC6K8jf6GkM7I",
     "website":   "https://chat.whatsapp.com/B5i5mfIerpC6K8jf6GkM7I",
@@ -17,39 +17,39 @@
             "required": false
         },
         "BIO": {
-            "description": "Change Your live Bio | ඔබේ About එකට අවශ්‍ය දෙයක් මෙහි ලියන්න",
+            "description": "Change Your live Bio",
             "required": false,
-            "value": "ɪ ᴀᵐ ⁿᵒᵗ ᵖᵉʳᶠᵉᶜᵗ ʙᵘᵗ ɪ  ᴀᵐ ʟⁱᵐⁱᵗᵉᵈ ᴇᵈⁱᵗⁱᵒⁿ👀🔥"
+            "value": "This is a whatsapp bot"
         },
         "AUTO_STICKER": {
             "description": "If you likes Auto Sticker you can write 'true'. Otherwise false",
             "required": false,
-            "value": "false"
+            "value": "true"
          },
         "BOT_NAME": {
             "description": "give a name you disire to give your bot (for auto reply white to identify)",
             "required": false,
-            "value": "👩‍🦰©Amazone Alexa"
+            "value": "PAIN BOT"
         },
-        "FULL_ALEXA": {
-            "description": "Activate alexa chat bot",
+        "FULL_PAIN": {
+            "description": "Activate PAIN chat bot",
             "required": false,
             "value": "false"
         },
         "SONGD": {
             "description": "Customizable Song Download message",
             "required": false,
-            "value": "*◦•●◉Downloading Your Song◉●•◦*"
+            "value": "*◉Downloading Your Song◉*"
         },
         "SONGU": {
             "description": "Customizable Song upload message",
             "required": false,
-            "value": "*◦•●◉✿Uploading Your Song✿◉●•◦*"
+            "value": "*✿Uploading Your Song✿*"
         },
         "LANGUAGE": {
             "description": "Enter your language. SI - Sinhala | EN - English | ES - Spanish(ag)",
             "required": true,
-            "value": "SI"
+            "value": "EN"
         },
         "AUTO_BIO": {
             "description": "Setup AUTO BIO feature. Adding a live clock for your WhatsApp about.",
@@ -59,7 +59,7 @@
         "HANDLERS": {
             "description": "Enter bot prefix to use commands.",
             "required": true,
-            "value": "^[.!]"
+            "value": "^[.]"
         },
         "AI_BOT": {
             "description": "To enable / disable the AI chat bot. Use true to enable AI chat bot and false to deactivate AI chat bot.",
@@ -87,7 +87,7 @@
         "CAPTIONS": {
             "description": "Set your caption under medias.",
             "required": true,
-            "value": "Made By 👩‍🦰Amazone Alexa"
+            "value": "Created by PAIN BOT"
         },
         "MUTE_MESSAGE": {
             "description": "Message received when mute a group. If you do not want to change this message, type default.",
@@ -112,7 +112,7 @@
         "ALIVE_LOGO": {
             "description": "Alive message logo. Enter your image link below to change the image. (Upload the image you want to https://imgbb.com and put that link here.)",
             "required": true,
-            "value": "https://telegra.ph/file/2046371f4b8e65dd4d52e.jpg"
+            "value": "https://telegra.ph/file/b2e46124ee3336b339745.jpg"
         },
         "WELCOME_GIF": {
             "description": "Welcome message logo. Enter your image link below to change the image. (Upload the image you want to https://imgbb.com and put that link here.)",
@@ -167,7 +167,7 @@
         "PANEL_COMMAND": {
             "description": "Customizeable commands list request command. Keep alexa if you don't want to change.",
             "required": true,
-            "value": "alexa"
+            "value": "painum"
         },
         "REMOVE_BG_API_KEY": {
             "description": "Here you go to the website remove.bg and sign up and get an API key. Leave the API key in this space.",
@@ -176,7 +176,7 @@
         "ALIVE_MESSAGE": {
             "description": "The message you get when you check whether the bot is online or not. This is not necessarily the case.",
             "required": false,
-            "value": "default"
+            "value": "Bot is online"
         },
         "BAN_MESSAGE": {
             "description": "The message you get when someone commands you as .ban and removes it. If you do not want to change this message, type default.",
@@ -206,7 +206,7 @@
         "AFK_MESSAGE": {
             "description": "If you do not want to change this message, type default.",
             "required": false,
-            "value": "default"
+            "value": "Bot is going afk"
         },
         "NO_ONLINE": {
             "description": "This is not necessarily the case.",
@@ -226,7 +226,7 @@
         "TIME_ZONE": {
             "description": "type your time zone (pass this sri lankan users) ",
             "required": false,
-            "value": "Asia/Colombo"
+            "value": "Asia/Kolkata"
         },
         "INBOX_BLOCK": {
             "description": "Activate Inbox Block System true or false",
@@ -236,7 +236,7 @@
         "MENU_INFO": {
             "description": "write Some Words about yor Bot You can Edite this",
             "required": false,
-            "value": "🧜‍♀ᴀᴍᴀᴢᴏɴᴇ ᴀʟᴇxᴀ ɪꜱ ᴀ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ. ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ©️ᴛᴇᴇɴᴜ Use ᴇᴀꜱʏ ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ᴘᴇʀᴇᴄᴛʟʏ..🎨ꜱᴏ ᴀᴍᴀᴢᴏɴᴇ ᴀʟᴇxᴀ ɪꜱ ʙᴇꜱᴛ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ🧞‍♀️!!"
+            "value": "PAIN BOT is whatsapp public bot with many intresting features"
         }
     },
     "addons": [{
