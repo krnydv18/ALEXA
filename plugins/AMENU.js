@@ -35,7 +35,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  *│💻Frameworks:* Nodejs
  *│🛰️Hosted on* Heroku
  ╰──────────●●►
-
+*Join our anime group:* https://chat.whatsapp.com/LJSMmlVwaev5UGHvOksdq3
  ╭──────────●●➢
 ☯│🛡️BOT COMMANDS☯
  │   ───────
