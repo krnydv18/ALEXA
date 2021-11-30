@@ -27,7 +27,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
     await message.sendMessage (Buffer.from (respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `        
 
 *╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」*
- │
+┇
  ├─────────●●►
  *│🌼HEY,*  `+wish+`
  *│Time⌚:* `+time+`
@@ -37,146 +37,141 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  ╰──────────●●►
 *Join our anime group:* https://chat.whatsapp.com/LJSMmlVwaev5UGHvOksdq3
  ╭──────────●●➢
-☯│🛡️BOT COMMANDS☯
- │   ───────
- │➢.alive [Check bot status]
- │➢.bot [chat with bot]
- │➢.Admin [ for owner ]
- │➢.update [check Update]
- │➢.update now [get update ]
- │➢.restart 
+❏│🤖BOT COMMANDS🤖❐
+┇   ───────
+┇➢.alive [Check bot status]
+┇➢.bot [chat with bot]
  ╰───────────●●➢
 
  ╭───────────●●➢
- ☯│🧜‍♀STICKER COMMANDS☯
- │      ───────
- │➢.attp [text ]
- │➢.sticker
- │➢.toimg
- │➢.stk
+ ❏│🖼️STICKER COMMANDS🖼️❐
+┇      ───────
+┇➢.attp [text ]
+┇➢.sticker
+┇➢.toimg
+┇➢.stk
+ ╰────────────●●➢
+ ╭────────────●●➢
+ ❏│👑RIN BOT COMMANDS👑❐
+┇  ─────────
+┇➢.anime (anime name)
+┇➢.rmeme  (sends random meme)
+┇➢.quote (text)
+┇➢.aniquote (text)
+┇➢.joke (text)
+┇
+┇ᵀʰᵃⁿᵏˢ ᵗᵒ ᴹᵒʰᵈ ˢᵃᵇᵃʰᵃᵗ
+ ╰────────────●●➢
+ ╭────────────●●➢
+ ❏│✳️TEXT TO IMG✳️❐
+┇   ───────
+┇➢.textimg 
+┇➢.prologo [your text]
+┇➢.ffpack [Free fire Logo pack]
+┇➢.ttp [ text ]
+┇➢.trumpsay [ text ]
+┇➢.changesay [ text ]
+┇➢.animesay [ text ]
+┇➢.meme 
  ╰────────────●●➢
 
  ╭────────────●●➢
- ☯│🧞‍♀️TEXT TO IMG☯
- │   ───────
- │➢.textimg 
- │➢.prologo [your text]
- │➢.ffpack [Free fire Logo pack]
- │➢.ttp [ text ]
- │➢.dttp [ text ]
- │➢.trumpsay [ text ]
- │➢.changesay [ text ]
- │➢.animesay [ text ]
- │➢.meme 
+ ❏│📩DOWNLOAD COMMANDS📩❐
+┇      ────────
+┇➢.video [ Yt Link]
+┇➢.pvideo [video link]
+┇➢.play [yt link ]
+┇➢.song  [ song name ]
+┇➢.psong[ song name ]
+┇➢.img [name]
+┇➢.twt [twitter video Link]
  ╰────────────●●➢
 
  ╭────────────●●➢
- ☯│💰DOWNLOAD COMMANDS☯
- │      ────────
- │➢.video [ Yt Link]
- │➢.pvideo [video link]
- │➢.play [yt link ]
- │➢.song  [ song name ]
- │➢.psong[ song name ]
- │➢.img [name]
- │➢.twt [twitter video Link]
+ ❏│🐉SEARCH COMMANDS🐉❐
+┇     ──────────
+┇➢.yt [ topic ]
+┇➢.wiki [text ]
+┇➢.movie [ movie name ]
+┇➢.github [ name ]
+┇➢.show [tv series ]
+┇➢.weather [ city ]
+┇
  ╰────────────●●➢
 
  ╭────────────●●➢
- ☯│🔍SEARCH COMMANDS☯
- │     ──────────
- │➢.yt [ topic ]
- │➢.wiki [text ]
- │➢.movie [ movie name ]
- │➢.github [ name ]
- │➢.show [tv series ]
- │➢.weather [ city ]
- │
- ╰────────────●●➢
-
- ╭────────────●●➢
- ☯│🧩Fun and Wallpaper ☯
- │  ─────────
- │➢.aniwall
- │➢..wallpaper
- │➢.bts
- │➢.blackpink
- │➢.loli
- │➢.megumin
- │➢.waifu
- │➢.qr
- │➢.emoji
- │➢.compliment
- │➢.joke
- │➢.zodiac
+ ❏│🧩Fun and Wallpaper🧩❐
+┇  ─────────
+┇➢.aniwall
+┇➢.wp
+┇➢.bts
+┇➢.blackpink
+┇➢.loli
+┇➢.megumin
+┇➢.waifu
+┇➢.qr
+┇➢.emoji
+┇➢.compliment
+┇➢.zodiac
  ╰───────────●●➢
  ╭────────────●●➢
- ☯│🛸GROUP COMMANDS☯
- │  ─────────
- │➢.rename [change Group name]
- │➢.rules    [check rules]
- │➢.info [check details]
- │➢.tagadmin 
- │➢.antispm
- │➢.clear
- │➢.report
- │➢.tagall  
- │➢.ban [ for owner ]
- │➢.add [ for owner ]
- │➢.promote [ for owner ]
- │➢.demote [ for owner ]
- │➢.invite [ for owner ]
- │➢.leave [ for owner ]
- │➢.welcome 
- │➢.goodbye
+ ❏│👑OWNER COMMANDS👑❐
+┇  ─────────
+┇➢.rename [change Group name]
+┇➢.setrules    [check rules]
+┇➢.tagadmin 
+┇➢.clear
+┇➢.report
+┇➢.tagall  
+┇➢.ban [ for owner ]
+┇➢.add [ for owner ]
+┇➢.promote [ for owner ]
+┇➢.demote [ for owner ]
+┇➢.invite [ for owner ]
+┇➢.leave [ for owner ]
+┇➢.welcome 
+┇➢.goodbye
+┇➢.Admin [ for owner ]
+┇➢.update [check Update]
+┇➢.update now [get update ]
+┇➢.restart
  ╰───────────●●➢
 
  ╭───────────●●➢
- ☯│🎨MEDIA TOOLS☯
- │      ───────
- │➢.xmedia [25+ tools]
- │➢.mp3 [Video To mp3]
- │➢.removebg
- │➢.voicy
- │➢.unvoice [mp3 to voice]
+ ❏│📺MEDIA TOOLS📺❐
+┇      ───────
+┇➢.xmedia [25+ tools]
+┇➢.mp3 [Video To mp3]
+┇➢.removebg
+┇➢.voicy
+┇➢.toimg
+┇➢.unvoice [mp3 to voice]
  ╰───────────●●➢
 
  ╭───────────●●➢
- ☯│⚡MORE COMMAND☯
- │  ────────
- │➢.scan
- │➢.brdmore
- │➢.rdmore
- │➢.tts
- │➢.ftext
- │➢.wallpaper
- │➢.anime
- │➢.listanim
- │➢.device
- │➢.currency
- │➢.ss [link ]
- │➢.afk [ bot is online ]
- │➢.short { link ]
- │➢.wame [ get user link ]
- │➢.currency
- │➢.trt { en si}
- │➢.covid  [ covid IN]
+ ❏│🕹️MORE COMMAND🕹️❐
+┇  ────────
+┇➢.brdmore
+┇➢.tts
+┇➢.ss [link ]
+┇➢.short { link }
+┇➢.trt { en si}
+┇➢.covid  [ covid IN]
  ╰────────────●●➢
 
  ╭───────────●●➢
- ☯│⚙️BOT SETTINGS☯
- │ ──Owner only──
- │➢.pp [set profilr pic]
- │➢.autobio on/off [change bio ]
- │➢.whatsblock on [WA link Block]
- │➢.inblock on /off 
- │➢.work public /private
- │➢.setrules
- │➢.setvar
- │
+ ❏│🔨BOT SETTINGS🔨❐
+┇ ──Owner only──
+┇➢.pp [set profile pic]
+┇➢.autobio on/off [change bio ]
+┇➢.whatsblock on [WA link Block]
+┇➢.inblock on /off 
+┇➢.work public /private
+┇➢.setrules
  ╰───────────●●➢
-*📝Note Some api based │commands are not working after latest whatsapp update* 
+*📝Note Some api based┇commands are not working after latest whatsapp update* 
  
+
 `}) 
 
  }));
