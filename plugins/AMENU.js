@@ -110,6 +110,8 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
 ┇➢.loli
 ┇➢.megumin
 ┇➢.waifu
+┇➢.cat
+┇➢.car
 ┇➢.qr
 ┇➢.emoji
 ┇➢.compliment
@@ -153,6 +155,8 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  ❏│🕹️MORE COMMAND🕹️❐
 ┇  ────────
 ┇➢.brdmore
+┇➢.fakeid
+┇➢.dogemenu
 ┇➢.tts
 ┇➢.ss [link ]
 ┇➢.short { link }
