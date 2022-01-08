@@ -113,119 +113,119 @@ setInterval(async () => {
                 var ov_time = new Date().toLocaleString('AZ', { timeZone: 'Asia/Baku' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸP∆IN BOT'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('94')) { // Sri Lanka
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('LK', { timeZone: 'Asia/Colombo' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸP∆IN BOT'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('351')) { // Portugal
                 var ov_time = new Date().toLocaleString('PT', { timeZone: 'Europe/Lisbon' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ P∆IN BOT'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('75')) { // Russia
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('RU', { timeZone: 'Europe/Kaliningrad' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ P∆IN BOT'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('7')) { // Indian
                 var ov_time = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ P∆IN BOT'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('62')) { // Indonesia
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('ID', { timeZone: 'Asia/Jakarta' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ P∆IN BOT'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('49')) { // Germany
                 var ov_time = new Date().toLocaleString('DE', { timeZone: 'Europe/Berlin' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ P∆IN BOT'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('61')) { // Australia 
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('AU', { timeZone: 'Australia/Lord_Howe' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ P∆IN BOT'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('55')) { // Brazil
                 var ov_time = new Date().toLocaleString('BR', { timeZone: 'America/Noronha' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ P∆IN BOT'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('33')) { // France
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('FR', { timeZone: 'Europe/Paris' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ P∆IN BOT'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('34')) { // Spain
                 var ov_time = new Date().toLocaleString('ES', { timeZone: 'Europe/Madrid' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ P∆IN BOT'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('44')) { // UK
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('GB', { timeZone: 'Europe/London' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ P∆IN BOT'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('39')) { // Italy 
                 var ov_time = new Date().toLocaleString('IT', { timeZone: 'Europe/Rome' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ P∆IN BOT'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('7')) { // Kazakhistan
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('KZ', { timeZone: 'Asia/Almaty' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ P∆IN BOT'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('998')) { // Uzbekistan 
                 var ov_time = new Date().toLocaleString('UZ', { timeZone: 'Asia/Samarkand' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ P∆IN BOT'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('993')) { // Turkmenistan
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('TM', { timeZone: 'Asia/Ashgabat' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ P∆IN BOT'
                 await conn.setStatus(biography)
             }
             else {
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('EN', { timeZone: 'America/New_York' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ👩‍🦰Amazone-Alexa'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n ' + config.BIO +' \nᴾᵒʷᵉʳᵉᵈ ᴮʸ P∆IN BOT'
                 await conn.setStatus(biography)
             }
         }
@@ -309,7 +309,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('🛡️Amazone Alexa working!')
+            chalk.green.bold('🛡P∆IN BOT  working!')
         );
         await new Promise(r => setTimeout(r, 1100));
 
@@ -320,7 +320,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '*🧚‍♂QUEEN AMAZONE As Public! 👩‍🦰*\n\n_මෙය ඔබගේ LOG අංකයයි..මෙහි විධාන භාවිතයෙන් වළකින්න._\n_ඔබට පුලුවන් වෙනත් ඕනෑම කතා බහක විධාන භාවිතා කිරීමට.. :)_\n\n*ඔබේ Bot Public ආකාරයට ක්‍රියා කරයි..එය වෙනස් කිරීමට* _.setvar WORK_TYPE:private_ *විධානය භාවිතා කරන්න.*\n\n*Bot ක්‍රියාත්මක වන්නෙ කෙසේද හා විධාන ලැයිස්තු ලබා ගැනීමට⚜ .basichelp විධානය භාවිතා කරන්න*\n\nSupport Group : https://t.me/Amazone_Neotrox_Support\n*🧚‍♂QUEEN AMAZONE භාවිතා කිරීම සම්බන්ධයෙන් ස්තූතියි 💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '* P∆IN BOT As Public! 👩‍🦰*\n\n_මෙය ඔබගේ LOG අංකයයි..මෙහි විධාන භාවිතයෙන් වළකින්න._\n_ඔබට පුලුවන් වෙනත් ඕනෑම කතා බහක විධාන භාවිතා කිරීමට.. :)_\n\n*ඔබේ Bot Public ආකාරයට ක්‍රියා කරයි..එය වෙනස් කිරීමට* _.setvar WORK_TYPE:private_ *විධානය භාවිතා කරන්න.*\n\n*Bot ක්‍රියාත්මක වන්නෙ කෙසේද හා විධාන ලැයිස්තු ලබා ගැනීමට⚜ .basichelp විධානය භාවිතා කරන්න*\n\nSupport Group : https://t.me/Amazone_Neotrox_Support\n* P∆IN BOT භාවිතා කිරීම සම්බන්ධයෙන් ස්තූතියි 💌*', MessageType.text);
                 }
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -346,7 +346,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '*🧚‍♂QUEEN AMAZONE Working As public!👩‍🦰*\n\nPlease do not try any commands here. This is your log number._\n_You can try commands anywhere else :)_\n\n_Type_ *.basichelp* _to get your full Help list and Basic Commands._\n\n_Your bot in Public Mode. To change, use_ ```.setvar WORK_TYPE:private``` _command._\n\n*Thanks for using 🧚‍♂QUEEN AMAZONE💌*\n', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '* P∆IN BOT Working As public!👩‍🦰*\n\nPlease do not try any commands here. This is your log number._\n_You can try commands anywhere else :)_\n\n_Type_ *.basichelp* _to get your full Help list and Basic Commands._\n\n_Your bot in Public Mode. To change, use_ ```.setvar WORK_TYPE:private``` _command._\n\n*Thanks for using  P∆IN BOT 💌*\n', MessageType.text);
                 }               
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -375,7 +375,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '*🧚‍♂QUEEN AMAZONE As private! 👩‍🦰*\n\n_මෙය ඔබගේ LOG අංකයයි..මෙහි විධාන භාවිතයෙන් වළකින්න._\n_ඔබට පුලුවන් වෙනත් ඕනෑම කතා බහක විධාන භාවිතා කිරීමට.. :)_\n\n*ඔබේ Bot Private ආකාරයට ක්‍රියා කරයි..එය වෙනස් කිරීමට* _.setvar WORK_TYPE:public_ *විධානය භාවිතා කරන්න.*\n\n*Bot ක්‍රියාත්මක වන්නෙ කෙසේද හා විධාන ලැයිස්තු ලබා ගැනීමට⚜ .basichelp විධානය භාවිතා කරන්න*\n\nSupport Group : _https://t.me/Amazone_Neotrox_Support_\n*🧚‍♂QUEEN AMAZONE භාවිතා කිරීම සම්බන්ධයෙන් ස්තූතියි 💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '* P∆IN BOT As private! 👩‍🦰*\n\n_මෙය ඔබගේ LOG අංකයයි..මෙහි විධාන භාවිතයෙන් වළකින්න._\n_ඔබට පුලුවන් වෙනත් ඕනෑම කතා බහක විධාන භාවිතා කිරීමට.. :)_\n\n*ඔබේ Bot Private ආකාරයට ක්‍රියා කරයි..එය වෙනස් කිරීමට* _.setvar WORK_TYPE:public_ *විධානය භාවිතා කරන්න.*\n\n*Bot ක්‍රියාත්මක වන්නෙ කෙසේද හා විධාන ලැයිස්තු ලබා ගැනීමට⚜ .basichelp විධානය භාවිතා කරන්න*\n\nSupport Group : _https://t.me/Amazone_Neotrox_Support_\n* P∆IN BOT භාවිතා කිරීම සම්බන්ධයෙන් ස්තූතියි 💌*', MessageType.text);
                 }
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -401,7 +401,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '*🧚‍♂QUEEN AMAZONE Working As private!👩‍🦰*\n\nPlease do not try any commands here. This is your log number._\n_You can try commands anywhere else :)_\n\n_Type_ *.basichelp* _to get your full Help list and Basic Commands._\n\n_Your bot in private  Mode. To change, use_ ```.setvar WORK_TYPE:public``` _command._\n\n*Thanks for using 🧚‍♂QUEEN AMAZONE💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '* P∆IN BOT Working As private!👩‍🦰*\n\nPlease do not try any commands here. This is your log number._\n_You can try commands anywhere else :)_\n\n_Type_ *.basichelp* _to get your full Help list and Basic Commands._\n\n_Your bot in private  Mode. To change, use_ ```.setvar WORK_TYPE:public``` _command._\n\n*Thanks for using  P∆IN BOT 💌*', MessageType.text);
                 }
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -639,8 +639,8 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                         } catch (error) {
                             if (config.NOLOG == 'true') return;
                             if (config.LANG == 'SI' || config.LANG == 'AZ') {
-                                await conn.sendMessage(conn.user.jid, '*-- බොට් වාර්තාව [🛡️Queen-Amazone] --*' + 
-                                    '\n*👩‍🦰Queen-Amazone නිසි ලෙස ක්‍රියා කරයි!*'+
+                                await conn.sendMessage(conn.user.jid, '*-- බොට් වාර්තාව [🛡P∆IN BOT ] --*' + 
+                                    '\n* P∆IN BOT නිසි ලෙස ක්‍රියා කරයි!*'+
                                     '\n_මෙය ඔබගේ LOG අංකයයි! _මෙහි විධාන භාවිතයෙන් වළකින්න_' +
                                     '\n_ඔබට පුලුවන් වෙනත් ඕනෑම කතාබහක විධාන භාවිතා කරන්න._' +
                                     '\n_වැඩි දුර උදව් සදහා සහය සමූහයට එකතු වෙන්න._' +
@@ -649,7 +649,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                                     , MessageType.text, {detectLinks: false});
 
                                 if (error.message.includes('URL')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚜ 🙇දෝශ විශ්ලේෂනය [👩‍🦰Queen-Amazone] ⚜*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚜ 🙇දෝශ විශ්ලේෂනය [ P∆IN BOT] ⚜*' + 
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _Only Absolutely URLs Supported_' +
                                         '\n*🤖හේතුව:* _LOG අංකය තුළ මාධ්‍ය මෙවලම් (nmedia, sticker..) භාවිතය._' +
@@ -658,7 +658,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                                     );
                                 }
                                 else if (error.message.includes('SSL')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [👩‍🦰Queen-Amazone] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [ P∆IN BOT] ⚕️*' + 
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _SQL Database Error_' +
                                         '\n*🤖හේතුව:* _Database\'දෝශයකි._ ' +
@@ -667,7 +667,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                                     );
                                 }
                                 else if (error.message.includes('split')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [👩‍🦰Queen-Amazone] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [ P∆IN BOT] ⚕️*' + 
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය.!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _Split of Undefined_' +
                                         '\n*🤖හේතුව:* _කණ්ඩායම් admin භාවිතා කළ හැකි විධානයන් සමහර විට split ක්‍රියාවලිය නොදකි._ ' +
@@ -676,7 +676,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                                     );                               
                                 }
                                 else if (error.message.includes('Ookla')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [👩‍🦰Queen-Amazone] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [ P∆IN BOT] ⚕️*' + 
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _Ookla Server Connection_' +
                                         '\n*🤖හේතුව:* _සේවාදායකයට වේගවත්ම දත්ත සම්ප්‍රේෂණය කළ නොහැක._' +
@@ -685,7 +685,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                                     );
                                 }
                                 else if (error.message.includes('params')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [👩‍🦰Queen-Amazone] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [ P∆IN BOT] ⚕️*' + 
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _Requested Audio Params_' +
                                         '\n*🤖හේතුව:* _හෝඩියේ පිටත TTS විධානය භාවිතා කිරීම._' +
@@ -694,7 +694,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                                     );
                                 }
                                 else if (error.message.includes('unlink')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [👩‍🦰Queen-Amazone] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [ P∆IN BOT] ⚕️*' + 
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _No Such File or Directory_' +
                                         '\n*🤖හේතුව:* _Pluginයේ වැරදි කේතීකරණය._' +
@@ -703,7 +703,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                                     );
                                 }
                                 else if (error.message.includes('404')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [👩‍🦰Queen-Amazone] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [ P∆IN BOT] ⚕️*' + 
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _Error 404 HTTPS_' +
                                         '\n*🤖හේතුව:* _Heroku plugins යටතේ ඇති විධානයන් භාවිතා කිරීම හේතුවෙන් සේවාදායකයා සමඟ සන්නිවේදනය කිරීමට නොහැකි වීම._' +
@@ -712,7 +712,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                                     );
                                 }
                                 else if (error.message.includes('reply.delete')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [👩‍🦰Queen-Amazone] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [ P∆IN BOT] ⚕️*' + 
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _Reply Delete Function_' +
                                         '\n*🤖හේතුව:* _IMG හෝ Wiki විධානයන් භාවිතා කිරීම. (Official වට්ස්ඇප් භාවිතය.)_' +
@@ -721,7 +721,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                                     );
                                 }
                                 else if (error.message.includes('load.delete')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [👩‍🦰Queen-Amazone] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [ P∆IN BOT] ⚕️*' + 
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _Reply Delete Function_' +
                                         '\n*🤖හේතුව:* _IMG හෝ Wiki විධානයන් භාවිතා කිරීම. (Official වට්ස්ඇප් භාවිතය.)_' +
@@ -730,7 +730,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                                     );
                                 }
                                 else if (error.message.includes('400')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [👩‍🦰Queen-Amazone] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [ P∆IN BOT] ⚕️*' + 
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _Bailyes Action Error_ ' +
                                         '\n*🤖හේතුව:* _නිශ්චිත හේතුව නොදනී. විකල්ප එකකට වඩා මෙම දෝෂය ඇති වීමට හේතු විය හැක._' +
@@ -739,7 +739,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                                     );
                                 }
                                 else if (error.message.includes('decode')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [👩‍🦰Queen-Amazone] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [ P∆IN BOT] ⚕️*' + 
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _Cannot Decode Text or Media_' +
                                         '\n*🤖හේතුව:* _වැරදි ලෙස භාවිතා කිරීම._' +
@@ -748,7 +748,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                                     );
                                 }
                                 else if (error.message.includes('unescaped')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [👩‍🦰Queen-Amazone] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [ P∆IN BOT] ⚕️*' + 
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _Word Character Usage_' +
                                         '\n*🤖හේතුව:* _English හෝඩියේ පිටත TTP, ATTP වැනි විධානයන් භාවිතා කිරීම._' +
@@ -757,7 +757,7 @@ ${chalk.blue.italic('👩‍🦰 Connecting to WhatsApp...')}`);
                                     );
                                 }
                                 else if (error.message.includes('conversation')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [👩‍🦰Queen-Amazone] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ◁දෝශ වාර්තාව▷ [ P∆IN BOT] ⚕️*' + 
                                         '\n========== ``` 🧚‍♂දෝශ විශ්ලේෂනය!``` ==========' +
                                         '\n\n*🚫ප්‍රධාන දෝෂය:* _Deleting Plugin_' +
                                         '\n*🤖හේතුව:* ප්ලගීනයෙ නම වැරදියි.._' +
